@@ -6,4 +6,4 @@ Latitude and longitude obtained from latlong.net
 0. New York City
 1. Salt Lake City
 2. Lawrence
-3. 
+3. Seattle
