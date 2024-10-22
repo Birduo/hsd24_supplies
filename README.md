@@ -7,6 +7,16 @@ Welcome to the test supplies repo! Here, you will find various resources for tes
 - mystery feature (whenever it's launched)
 
 # Test Solutions
+## A note about scoring
+These examples are primarily meant to serve as guides for the type of questions we want the students to be able to answer and demonstrate during their presentations. What specifically is asked isn't as important as whether they've created a project that can accomplish these types of tasks.
+- Core features: Can they query specific data points from an input file?
+- Small extra feature: Can they make an API request and compare response data with an input file?
+- Medium extra feature: Can they create a histogram for a given data type?
+- Large extra feature: Did they create a REST API usable with HTTP requests?
+- Mystery feature: Can they compare data across timeframes within a single input file? 
+
+The following are examples of questions that the students could be asked. The cities named each correspond to a specific input file. 
+
 ## Core Features
 Q: What is the minimum `temperature_min` of days 0-9 in New York City? 
 > A: 43.2536 degrees Fahrenheit
@@ -93,3 +103,17 @@ Q: Using a DELETE request, attempt to delete data for Day 5 in Salt Lake City. T
 ```
 
 >A: This is date `2024-10-07`. When the GET is attempted, an error message should be displayed. An example is above.
+
+## Mystery Feature (implemented during the hackathon)
+_Note: See `mystery.md` for the sample data set_
+
+Q: Compare the wind_speed_max between 2024-04-24 and 2024-04-25
+> A: The wind_speed_max on 2024-04-24 was 9.31 mph, which was less than wind_speed_max on 2024-04-25.
+
+Q: Compare the average temperature_max over days 0 through 2 against the average temperature_max over days 3 through 5.
+
+> A: The average between days 0 through 2 was 56.51 degrees Fahrenheit, which was greater than the 51.11 degrees Fahrenheit of days 3 through 5.
+
+Q: Compare the minimum precipitation_probability_max over the first 3 days with the minimum precipitation_probability_max over the last 3 days.
+
+> A: The minimum precipitation_probability_max is 45% in the first 3 days, which is less than the minimum of 97% in the last 3 days.
